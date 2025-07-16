@@ -3,3 +3,12 @@ Udemy: [NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2025
 Free account - For 1 year
 
 Cloud computing: Ondemand delivery of computing Services Eg: Computers, Databases, applications and other IT resources
+Cloud Deployment models: Private,Public and Hybrid(public + Private (company owned infrastucture))
+Types of cloud computing: 
+1) IAAS (Infrastructure as a Code)
+    -Getting networking, Computers, Data storage space from cloud
+2) PAAS (Platform as a service)
+    -Deploying our applications on cloud 
+3) SAAS (Software as a service)
+    -Getting softwares from cloud they are managed by cloud. example version upgrades etc
+
