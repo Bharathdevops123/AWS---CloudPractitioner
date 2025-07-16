@@ -12,3 +12,7 @@ Types of cloud computing:
 3) SAAS (Software as a service)
     -Getting softwares from cloud they are managed by cloud. example version upgrades etc
 
+Region: Is a Location that has one or more Availability zones
+Availability Zones: Is a collection of one or more discrete data centres.
+In a Region we have 3 to 6 availaility Zones.
+
