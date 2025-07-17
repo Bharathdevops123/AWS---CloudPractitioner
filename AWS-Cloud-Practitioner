@@ -18,4 +18,17 @@ Availability Zones: Is a collection of one or more discrete data centres.
      -They are separated from each other so that are isolated from disaster
 Now we can say Region is a collection of cluster of datacentres
 
+*)IAM : Identity Access Management
+----------------------------------
+Its a global service
+Root user is created by default shouldn't be used or shared
+Users - people in the organization can be grouped
+Group - only contain users not other groups
+
+Users can belong to multiple groups, Users can also be not part of any groups
+
+Policy: Its a json document to provide permissions to aws services to the Users or groups
+SC: Policy is assigned to Users or Groups to provide permissions
+ 
+
 
