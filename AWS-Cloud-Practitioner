@@ -32,6 +32,7 @@ SC: Policy is assigned to Users or Groups to provide permissions
 Eg: admin, IAMReadonlyaccess
 
 IAM Role: will provide permissions for AWS resources to access other resources in aws
+Eg: Ec2Instance roles, LambdaFunction Roles
 SC: Policy provide permissions for users, IAM Role provides permissions for AWS Services/resources
 
 Number of ways to access AWS
