@@ -31,9 +31,9 @@ Policy: Its a json document to provide permissions to Users or groups for aws se
 SC: Policy is assigned to Users or Groups to provide permissions
 Eg: admin, IAMReadonlyaccess
 
-IAM Role: will provide permissions to AWS resources to access other resources in aws or to perform tasks in aws
+IAM Role: will provide permissions to AWS resources to access other resources in aws or to perform tasks in this aws account or other aws accounts.
 Eg: Ec2Instance roles, LambdaFunction Roles
-SC: Policy provide permissions for users, IAM Role provides permissions for AWS Services/resources
+SC: Policy provide permissions for users, IAM Role provides permissions to AWS Services/resources to do any task in aws
 
 Number of ways to access AWS
 1) AWS Management console : You can access all the resource of AWS here.
