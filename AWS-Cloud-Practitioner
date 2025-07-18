@@ -27,8 +27,12 @@ Group - only contain users not other groups
 
 Users can belong to multiple groups, Users can also be not part of any groups
 
-Policy: Its a json document to provide permissions to aws services to the Users or groups
+Policy: Its a json document to provide permissions to aws services for the Users or groups
 SC: Policy is assigned to Users or Groups to provide permissions
+Eg: admin, IAMReadonlyaccess
+
+IAM Role: will provide permissions for AWS resources to access other resources in aws
+SC: Policy provide permissions for users, IAM Role provides permissions for AWS Services/resources
 
 Number of ways to access AWS
 1) AWS Management console : You can access all the resource of AWS here.
