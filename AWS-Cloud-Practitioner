@@ -1,7 +1,6 @@
 Udemy: [NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2025
 
 Free account - For 1 year
-AWS Management console : You can access all the resource of AWS here.
 
 Cloud computing: Ondemand delivery of computing Services Eg: Computers, Databases, applications and other IT resources
 Cloud Deployment models: Private,Public and Hybrid(public + Private (company owned infrastucture))
@@ -30,6 +29,9 @@ Users can belong to multiple groups, Users can also be not part of any groups
 
 Policy: Its a json document to provide permissions to aws services to the Users or groups
 SC: Policy is assigned to Users or Groups to provide permissions
- 
 
+Number of ways to access AWS
+1) AWS Management console : You can access all the resource of AWS here.
+2) AWS CLI: Using Access Keys
+3) AWS SDK: to access api's in the application code. accessed by AccessK Keys
 
