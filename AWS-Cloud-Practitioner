@@ -44,5 +44,5 @@ EC2: Elastic Cloud Compute
 -Its a computer (linux,Windows,Mac)
 -t2.micro is an image with 1VCPU, 1GB RAM, 
 -Bootstrapping scripts or Ec2 User Data Scripts - A script used to install softwares, do any tasks at the time of Ec2 creation. This script run only once at the time of creation.
--You can start /Stop resources to less the cost
+-You can start /Stop/Terminate resources to less the cost
 -EBS : Its like Hard Disk (Elastic Block Storage)
