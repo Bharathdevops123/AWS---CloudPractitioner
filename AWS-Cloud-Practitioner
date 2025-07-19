@@ -46,3 +46,11 @@ Number of ways to access AWS
 -Bootstrapping scripts or Ec2 User Data Scripts - A script used to install softwares, do any tasks at the time of Ec2 creation. This script run only once at the time of creation.
 -You can start /Stop/Terminate resources to less the cost
 -EBS : Its like Hard Disk (Elastic Block Storage)
+
+*)Security Groups: 
+-Controls how traffic is allowed into or out of AWS resources
+-Acts like Firewall
+-They only contain allow rules
+-Rules can be referenced by IP or security Group
+-Region specific. If you changete region then this security group wont be available there.
+
