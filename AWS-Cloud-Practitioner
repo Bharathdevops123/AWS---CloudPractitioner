@@ -47,6 +47,17 @@ Number of ways to access AWS
 -You can start /Stop/Terminate resources to less the cost
 -EBS : Its like Hard Disk (Elastic Block Storage)
 
+Ports:
+------
+22 - SSH - login to linux machine
+21- FTP -Upload files to file share
+22 - SFTP (Secure File Transfer Protocol) - Upload files using SSH
+80 - HTTP -Access unsecured Websites
+443 - HTTPS - access Secured websites
+3389 - RDP (Remote Desktop Protocol) -Login to windows instances
+1433 - sql port
+
+
 *)Security Groups: 
 -Controls how traffic is allowed into or out of AWS resources
 -Acts like Firewall
