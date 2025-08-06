@@ -72,4 +72,6 @@ AWS services
 *)EBS: Elastic block storage : we will attach storage to the Ec2. They are network drives.like D drive storage,E drive storage
 - EBS volumes are bound to availability zones. you cannot attach an ebs of us-east to us-west.where Ec2 is in us-east
 - We can detatch and attach to another instance very quickly
+Snapshot is a copy of an Amazon EBS (Elastic Block Storage) volume.
+AMI: Amazon Machine Image, we can do our own customization of Ec2 instance. own OS, software, configuration, monitoring etc
 
