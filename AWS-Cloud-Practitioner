@@ -76,4 +76,4 @@ Snapshot is a copy of an Amazon EBS (Elastic Block Storage) volume.
 AMI: Amazon Machine Image
 Amazon produces few AMI's : public AMI
 we can also create our own AMI and do our own customization of Ec2 instance. own OS, software, configuration, monitoring etc
-
+AWS Market place AMI: Some body created it and sells at market place
