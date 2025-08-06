@@ -65,3 +65,11 @@ Ports:
 -Rules can be referenced by IP or security Group
 -Region specific. If you changete region then this security group wont be available there.
 
+AWS services
+-------------
+*)Ec2: Elastic cloud Computing : like our computers
+
+*)EBS: Elastic block storage : we will attach storage to the Ec2. They are network drives.like D drive storage,E drive storage
+- EBS volumes are bound to availability zones. you cannot attach an ebs of us-east to us-west.where Ec2 is in us-east
+- We can detatch and attach to another instance very quickly
+
