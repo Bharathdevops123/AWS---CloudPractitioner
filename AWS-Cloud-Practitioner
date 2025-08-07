@@ -77,3 +77,11 @@ AMI: Amazon Machine Image
 Amazon produces few AMI's : public AMI
 we can also create our own AMI and do our own customization of Ec2 instance. own OS, software, configuration, monitoring etc
 AWS Market place AMI: Some body created it and sells at market place
+
+*) Ec2 Image Builder: Using this we can create image of Ec2 instance and add softwares to it and we can test it and create 100s of Ec2 instance
+
+*) EFS: Elastic File system
+Its Managed Network file system.
+Can be mounted to 100's of LINUX instances
+Can be in any Avaliability Zones
+Limited to only Linux instances
