@@ -101,7 +101,7 @@ Horizontal Scalability: Increasing no of resources ()
 High Availabilty: Running your application /system in at least 2 availability Zones. 
 Our application will be available if one datacentre goes down or at any disaster
 
-Load Balancer: distributes loads to ultiple servers equally.
+*)Load Balancer: distributes loads to ultiple servers equally.
 4 types of Load balancer
 1) Application Load balancer (Http,HTTPS only) - Layer 7
 users -->ALB--> (Application on multiple servers)
@@ -110,3 +110,7 @@ users -->NLB--> (Application on multiple servers) -- This is basically used when
 3) Gateway Load balancer - Layer 3
 users -->GWLB--> (security security cheeck app) --> (Application on multiple servers)  --This is used where there is aneed for high security
 4) Classic Load balancer (Retired in 2023)
+
+SC to create Application Load balancer
+Create your Ec2 instances
+Create Load balancer -- create a target group and add Ec2 instances to target group while creating Load balancer. Thats it.
