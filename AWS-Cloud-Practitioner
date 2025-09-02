@@ -63,7 +63,7 @@ Ports:
 -Acts like Firewall
 -They only contain allow rules
 -Rules can be referenced by IP or security Group
--Region specific. If you changete region then this security group wont be available there.
+-Region specific. If you change the region then this security group wont be available there.
 
 AWS services
 -------------
