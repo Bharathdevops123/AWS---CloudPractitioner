@@ -119,3 +119,9 @@ You can point DNs to this Load balancer
 Auto Scaling Group: We can increase or decrease the instances based on the load
 ----------------
 Create an autoscaling group define minimum and max capacity and attach the load balancer created in previous step. thats it
+Scaling strategies:
+a) Manual Scaling: Update the min and max capacity manuallyu
+b) Dynamic scaling:
+    -Simple: when cloud watch alarm is triggered (example CPU>70%) then add 2 instances
+    -Target tracking scaling: I want the average ASG CPU to stay at around 40%
+    -Scheduled Scaling : Increase capacity to 10- on friday at 5pm
