@@ -100,3 +100,13 @@ Horizontal Scalability: Increasing no of resources ()
 
 High Availabilty: Running your application /system in at least 2 availability Zones. 
 Our application will be available if one datacentre goes down or at any disaster
+
+Load Balancer: distributes loads to ultiple servers equally.
+4 types of Load balancer
+1) Application Load balancer (Http,HTTPS only) - Layer 7
+users -->ALB--> (Application on multiple servers)
+2) Network Load balancer (Ultra high performance, allows for TCP ) -Layer 4
+users -->NLB--> (Application on multiple servers) -- This is basically used when we need high performance when there is a need of transfer millions of transactions per second in an application
+3) Gateway Load balancer - Layer 3
+users -->GWLB--> (security security cheeck app) --> (Application on multiple servers)
+4) Classic Load balancer (Retired in 2023)
