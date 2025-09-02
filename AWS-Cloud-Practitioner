@@ -114,3 +114,4 @@ users -->GWLB--> (security security cheeck app) --> (Application on multiple ser
 SC to create Application Load balancer
 Create your Ec2 instances
 Create Load balancer -- create a target group and add Ec2 instances to target group while creating Load balancer. Thats it.
+You can point DNs to this Load balancer
