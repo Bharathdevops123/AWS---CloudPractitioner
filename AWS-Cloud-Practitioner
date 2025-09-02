@@ -89,3 +89,14 @@ Limited to only Linux instances
 *) Fsx 
 3rd party high performace computing
 
+Scalability: Adding resources to the application/system to handle the Load
+Types: 
+Vertical Scalbilty: Increasing the size of the resource (Example increase the size of database, increase t2.micro to t2.large instance)
+ -Scale up : Increase the size
+ -Scale down: Decrease the size
+Horizontal Scalability: Increasing no of resources ()
+ -Scale out: Increase the resources
+ -Scale in: Decrease the resources
+
+High Availabilty: Running your application /system in at least 2 availability Zones. 
+Our application will be available if one datacentre goes down or at any disaster
