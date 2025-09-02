@@ -108,5 +108,5 @@ users -->ALB--> (Application on multiple servers)
 2) Network Load balancer (Ultra high performance, allows for TCP ) -Layer 4
 users -->NLB--> (Application on multiple servers) -- This is basically used when we need high performance when there is a need of transfer millions of transactions per second in an application
 3) Gateway Load balancer - Layer 3
-users -->GWLB--> (security security cheeck app) --> (Application on multiple servers)
+users -->GWLB--> (security security cheeck app) --> (Application on multiple servers)  --This is used where there is aneed for high security
 4) Classic Load balancer (Retired in 2023)
