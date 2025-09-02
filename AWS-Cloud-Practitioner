@@ -125,3 +125,5 @@ b) Dynamic scaling:
     -Simple: when cloud watch alarm is triggered (example CPU>70%) then add 2 instances
     -Target tracking scaling: I want the average ASG CPU to stay at around 40%
     -Scheduled Scaling : Increase capacity to 10- on friday at 5pm
+
+c) Predictive scaling: Uses machine learning and predicts futre a head and increases or decreases the instances
