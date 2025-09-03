@@ -127,3 +127,16 @@ b) Dynamic scaling:
     -Scheduled Scaling : Increase capacity to 10- on friday at 5pm
 
 c) Predictive scaling: Uses machine learning and predicts futre a head and increases or decreases the instances
+
+*) S3: Simple Storage Service
+USed to store the data(files, backups any data) in the S3 buckets
+Buckets are like directories
+Buckets are defined at region level
+
+Naming convention of bucket:
+• No uppercase, No underscore
+• 3-63 characters long
+• Not an IP
+• Must start with lowercase letter or number
+• Must NOT start with the prefix xn--
+• Must NOT end with the suffix -s3alias
