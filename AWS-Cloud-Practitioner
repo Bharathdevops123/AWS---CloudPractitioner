@@ -140,3 +140,7 @@ Naming convention of bucket:
 • Must start with lowercase letter or number
 • Must NOT start with the prefix xn--
 • Must NOT end with the suffix -s3alias
+
+what ever we are storing they are referreed as objects
+Max object size is 5TB
+If an object is greater than 5 GB then it should be uploaded as multipart. it should be upload as 1000 parts of 5GB.
