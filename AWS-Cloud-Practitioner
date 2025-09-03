@@ -148,3 +148,13 @@ Max object size is 5TB
 If an object is greater than 5 GB then it should be uploaded as multipart. it should be upload as 1000 parts of 5GB.
 
 S3 bucket policy: To allow a s3 bucket to be able to access by public then we will add S3 bucket policy to it.
+We can host static website in S3 and use it with that S3 url as website url
+
+• Buckets vs Objects: global unique name, tied to a region
+• S3 security: IAM policy, S3 Bucket Policy (public access), S3 Encryption
+• S3 Websites: host a static website on Amazon S3
+• S3 Versioning: multiple versions for files, prevent accidental deletes
+• S3 Replication: same-region or cross-region, must enable versioning
+• S3 Storage Classes: Standard, IA, 1Z-IA, Intelligent, Glacier (Instant, Flexible, Deep)
+• Snowball: import data onto S3 through a physical device, edge computing
+• Storage Gateway: hybrid solution to extend on-premises storage to S3
