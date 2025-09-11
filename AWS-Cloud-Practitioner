@@ -210,7 +210,8 @@ Docker: is a containerization technology
 ------------
 • EKS = Elastic Kubernetes Service
 • Allows you to launch managed Kubernetes clusters on AWS
-• Kubernetes is an open-source system for management, deployment, and scaling of containerized apps (Docker)
+• Kubernetes is an open-source system for management, deployment
+• Scaling of containerized apps (Docker)
 • Containers can be hosted on:
 • EC2 instances
 • Fargate (Serverless)
@@ -226,7 +227,7 @@ What’s serverless?
 
 AWS Lambda
 • Virtual functions – no servers to manage!
-• Limited by time - short executions
+• Limited by time - short executions for 15 minutes
 • Run on-demand
 • Scaling is automated! 
 
@@ -265,9 +266,9 @@ Amazon API Gateway
 • Support for security, user authentication, API throttling, API keys, monitoring... 
 
 AWS Batch
+• A “batch” job is a job with a start and an end runs more than 15 minutes uses Ec2 instances or spot instances
 • Fully managed batch processing at any scale
 • Efficiently run 100,000s of computing batch jobs on AWS
-• A “batch” job is a job with a start and an end (opposed to continuous)
 • Batch will dynamically launch EC2 instances or Spot Instances
 • AWS Batch provisions the right amount of compute / memory
 • You submit or schedule batch jobs and AWS Batch does the rest!
