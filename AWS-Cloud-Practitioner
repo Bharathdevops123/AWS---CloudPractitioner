@@ -283,3 +283,7 @@ Batch vs Lambda
 * Batch: 
 • No time limit • Any runtime as long as it’s packaged as a Docker image 
 • Rely on EBS / instance store for disk space • Relies on EC2 (can be managed by AWS)
+
+*)LightSail:
+for new begginers who want to use aws cloud with limited knowledge they can use Light sail
+Here they can order Ec2, DB,networking,configuration in simple way just by selecting thats it they can host websites. but this cannot handle all features.
