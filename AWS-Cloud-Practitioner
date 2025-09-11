@@ -276,7 +276,8 @@ AWS Batch
 
 Batch vs Lambda 
 * Lambda: 
-• Time limit • Limited runtimes 
+• Time limit - 15 minutes , Lambda function is set to run at most 15 minutes if it more than that you need to go for Batch jobs
+• Limited runtimes 
 • Limited temporary disk space • Serverless 
 
 * Batch: 
