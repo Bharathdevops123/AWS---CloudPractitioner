@@ -288,3 +288,7 @@ Batch vs Lambda
 *)LightSail:
 for new begginers who want to use aws cloud with limited knowledge they can use Light sail
 Here they can order Ec2, DB,networking,configuration in simple way just by selecting thats it they can host websites. but this cannot handle all features.
+
+*) CloudFormation: You can create infrastructure using Code.
+It uses yaml code
+We need to upload this yaml template in aws to create , update resources.
