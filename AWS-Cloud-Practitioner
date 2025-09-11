@@ -158,3 +158,6 @@ We can host static website in S3 and use it with that S3 url as website url
 • S3 Storage Classes: Standard, IA, 1Z-IA, Intelligent, Glacier (Instant, Flexible, Deep)
 • Snowball: import data onto S3 through a physical device, edge computing
 • Storage Gateway: hybrid solution to extend on-premises storage to S3
+
+Amazon Athena
+Serverless query service to analyze data stored in Amazon S3
