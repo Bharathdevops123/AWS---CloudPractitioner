@@ -302,3 +302,11 @@ this code is compiled into cloudformation template either to Json or yaml format
 Use to deploy your applications
 Its PAAS service
 It will automaticaaly create autoscaling group, Load balancer, Url, based on the configuration we select on AWS while creating it. We can also point the app to DB.
+It supports only cloud
+
+AWS CodeDeploy
+• We want to deploy our application automatically
+• Works with EC2 Instances
+• Works with On-Premises Servers
+• Hybrid service 
+• Servers / Instances must be provisioned and configured ahead of time with the CodeDeploy Agent
