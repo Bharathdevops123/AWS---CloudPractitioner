@@ -292,3 +292,13 @@ Here they can order Ec2, DB,networking,configuration in simple way just by selec
 *) CloudFormation: You can create infrastructure using Code.
 It uses yaml code
 We need to upload this yaml template in aws to create , update resources.
+
+*)AWS CDK : AWS Cloud Development kit
+You can create infrastructure using CDK  in AWS
+you can use java script, typescript,python,java and dotnet
+this code is compiled into cloudformation template either to Json or yaml format
+
+*) Bean stalk:
+Use to deploy your applications
+Its PAAS service
+It will automaticaaly create autoscaling group, Load balancer, Url, based on the configuration we select on AWS while creating it. We can also point the app to DB.
