@@ -18,6 +18,9 @@ Availability Zones: Is a collection of one or more discrete data centres.
      -They are separated from each other so that are isolated from disaster
 Now we can say Region is a collection of cluster of datacentres
 
+AWS edge locations: are data centers positioned close to users that cache copies of your content 
+and run parts of your applications for faster delivery, improved performance, and lower latency. 
+
 *)IAM : Identity Access Management
 ----------------------------------
 Its a global service
@@ -343,7 +346,7 @@ Global Applications in AWS
     • Improve global application availability and performance using the AWS global network
 
 Amazon Route 53 Overview
-• Route53 is a Managed DNS (Domain Name System) - Same like Go daddy we can purchase Domain names and use it
+• Route53 is a Managed DNS (Domain Name System) service- Same like Go daddy we can purchase Domain names and use it
     • DNS is a collection of rules and records which helps clients understand
 how to reach a server through URLs.
 • In AWS, the most common records are:
@@ -351,3 +354,13 @@ how to reach a server through URLs.
     • www.google.com => 2001:0db8:85a3:0000:0000:8a2e:0370:7334 == AAAA IPv6
     • search.google.com => www.google.com == CNAME: hostname to hostname
     • example.com => AWS resource == Alias (ex: ELB, CloudFront, S3, RDS, etc…)
+
+Amazon CloudFront: Its a Global network
+    • Content Delivery Network (CDN)
+    • Improves read performance, content is cached at the edge Locations
+    • Improves users experience
+    • Hundreds of Points of Presence globally (edge locations, caches)
+    • DDoS protection (because worldwide), integration with Shield, AWS Web Application Firewall
+
+If we have a S3 bucket we can add CDN to it so that the S3 bucket content is cached in edge locations
+and the files are retreived very fast from S3 as the cache is available in Edge locations
