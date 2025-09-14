@@ -355,12 +355,26 @@ how to reach a server through URLs.
     • search.google.com => www.google.com == CNAME: hostname to hostname
     • example.com => AWS resource == Alias (ex: ELB, CloudFront, S3, RDS, etc…)
 
-Amazon CloudFront: Its a Global network
+Amazon CloudFront: Amazon CloudFront is a content delivery network (CDN) service 
+that uses a globally distributed network of edge locations to deliver data, videos, applications, and APIs to users with low latency and high transfer speeds
     • Content Delivery Network (CDN)
     • Improves read performance, content is cached at the edge Locations
     • Improves users experience
     • Hundreds of Points of Presence globally (edge locations, caches)
     • DDoS protection (because worldwide), integration with Shield, AWS Web Application Firewall
 
+We can use CDN for S3
 If we have a S3 bucket we can add CDN to it so that the S3 bucket content is cached in edge locations
 and the files are retreived very fast from S3 as the cache is available in Edge locations
+
+
+S3 Transfer Acceleration: Its a aws service which uses Globa network
+• Increase transfer speed by transferring file to an AWS edge location
+which will forward the data to the S3 bucket in the target region
+
+AWS Global Accelerator : this is AWS global networking service
+This is used for your applications 
+• Improve global application availability and performance using the AWS global network
+• Leverage the AWS internal network to optimize the route to your application (60% improvement)
+• 2 Anycast IP are created for your application and traffic is sent through Edge Locations
+• The Edge locations send the traffic to your application
