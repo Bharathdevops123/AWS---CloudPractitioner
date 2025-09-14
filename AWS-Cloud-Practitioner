@@ -385,3 +385,8 @@ AWS will get the server racks and place it in our onpremises to create Ec2, Ebs 
 AWS Wavelengths:
 Deploying AWS services at the nearest 5g networks
 
+AWS Local Zones:
+Zones that are closest to end users to avoid delay
+Aws provides some default Local zones or we can create our own Local zones.
+
+
