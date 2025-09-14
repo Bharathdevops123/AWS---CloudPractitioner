@@ -382,4 +382,6 @@ This is used for your applications
 AWS Outposts:
 AWS will get the server racks and place it in our onpremises to create Ec2, Ebs kind of services on premises
 
+AWS Wavelengths:
+Deploying AWS services at the nearest 5g networks
 
