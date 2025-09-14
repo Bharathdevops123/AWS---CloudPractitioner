@@ -379,3 +379,7 @@ This is used for your applications
 • 2 Anycast IP are created for your application and traffic is sent through Edge Locations
 • The Edge locations send the traffic to your application
 
+AWS Outposts:
+AWS will get the server racks and place it in our onpremises to create Ec2, Ebs kind of services on premises
+
+
