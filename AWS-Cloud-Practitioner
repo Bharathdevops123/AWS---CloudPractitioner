@@ -30,7 +30,7 @@ Group - only contain users not other groups
 
 Users can belong to multiple groups, Users can also be not part of any groups
 
-Policy: Its a json document to provide permissions to Users or groups for aws services 
+Policy: Its a json document to provide permissions to Users or groups to access aws services 
 SC: IAM Policy is assigned to Users or Groups to provide permissions
 Eg: admin, IAMReadonlyaccess
 
