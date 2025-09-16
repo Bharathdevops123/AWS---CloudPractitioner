@@ -163,7 +163,7 @@ We can host static website in S3 and use it with that S3 url as website url
 • Storage Gateway: hybrid solution to extend on-premises storage to S3
 
 Databases & Analytics Summary in AWS
-• Relational Databases - OLTP: RDS & Aurora (SQL)
+• Relational Databases - OLTP: RDS(Microsoft sql, mysql) & Aurora (SQL)
 • Differences between Multi-AZ, Read Replicas, Multi-Region
 • In-memory Database: ElastiCache
 • Key/Value Database: DynamoDB (serverless) & DAX (cache for DynamoDB)
