@@ -43,7 +43,7 @@ S3 bucket policy: To allow a s3 bucket to be able to access by public then we wi
 Number of ways to access AWS
 1) AWS Management console : Using Web browser You can access all the resource of AWS here.
 2) AWS CLI: Using Access Keys
-3) AWS SDK: to access api's in the application code. accessed by AccessK Keys
+3) AWS SDK: to access api's in the application code. accessed by Access Keys
 
 *)EC2: Elastic Cloud Compute
 -Its a computer (linux,Windows,Mac)
@@ -106,7 +106,7 @@ Horizontal Scalability: Increasing no of resources ()
 High Availabilty: Running your application /system in at least 2 availability Zones. 
 Our application will be available if one datacentre goes down or at any disaster
 
-*)Load Balancer: distributes loads to ultiple servers equally.
+*)Load Balancer: distributes loads to multiple servers equally.
 4 types of Load balancer
 1) Application Load balancer (Http,HTTPS only) - Layer 7
 users -->ALB--> (Application on multiple servers)
