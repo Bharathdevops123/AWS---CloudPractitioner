@@ -41,7 +41,7 @@ SC: Policy provide permissions for users, IAM Role provides permissions to AWS S
 S3 bucket policy: To allow a s3 bucket to be able to access by public then we will add S3 bucket policy to it.
 
 Number of ways to access AWS
-1) AWS Management console : You can access all the resource of AWS here.
+1) AWS Management console : Using Web browser You can access all the resource of AWS here.
 2) AWS CLI: Using Access Keys
 3) AWS SDK: to access api's in the application code. accessed by AccessK Keys
 
