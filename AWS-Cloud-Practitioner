@@ -65,6 +65,7 @@ Ports:
 
 *)Security Groups: 
 -Controls how traffic is allowed into or out of AWS resources
+-This is at resource level: example we can have security group for Ec2
 -Acts like Firewall
 -They only contain allow rules
 -Rules can be referenced by IP or security Group
