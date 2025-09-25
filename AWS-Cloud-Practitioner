@@ -447,6 +447,7 @@ Common Use:
 
 If you create an Ec2 instance under 10.8.0.0/24 subnet then it will assignan ip between 10.8.0.1 to 10.8.0.254 because 0 and 255 are occupied for subnet and broadcast address
 
+*****Security*****
 DDOS: Distributed denial-of-service attack: attacking our website creating multiple requests from many computers.
 DDOS Protection is provided on AWS by below
 • AWS Shield Standard: protects against DDOS attack for your website and applications, for all customers at no additional costs
@@ -519,3 +520,5 @@ Contact the AWS Abuse team: AWS abuse form, or abuse@amazonaws.com
 IAM Access Analyzer
 • Find out which resources are shared
 externally
+
+• CloudTrail: Track API calls made by users within account
