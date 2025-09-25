@@ -502,3 +502,9 @@ Helps record configurations and changes over time
 
 Amazon Macie:
 Data security and Data privacy service protects Sensitive Information
+
+
+AWS security Hub:
+
+Its a central place where you can find all the securities from different services at one place 
+different services(macie,Inspector,Firewall manager,System manager,Guard duty, config, IAM access Analyser, Health)
