@@ -499,16 +499,16 @@ Stores config settings of aws resources at one place and you can apply rules on 
 Helps you with auditing and recording compliance of AWS resources
 Helps record configurations and changes over time
 
-
 Amazon Macie:
 Data security and Data privacy service protects Sensitive Information
-
 
 AWS security Hub:
 Its a central place where you can find all the securities from different services at one place 
 different services(macie,Inspector,Firewall manager,System manager,Guard duty, config, IAM access Analyser, Health)
 
-
 Amazon Detective:
 analyzes, investigates, and quickly identifies the
 root cause of security issues or suspicious activities (using ML and graphs)
+
+AWS Abuse
+• Report suspected AWS resources used for abusive or illegal purposes
