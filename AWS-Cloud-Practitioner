@@ -498,3 +498,7 @@ Paid version
 Stores config settings of aws resources at one place and you can apply rules on them to shows compliance status 
 Helps you with auditing and recording compliance of AWS resources
 Helps record configurations and changes over time
+
+
+Amazon Macie:
+Data security and Data privacy service protects Sensitive Information
