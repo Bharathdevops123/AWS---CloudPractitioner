@@ -24,7 +24,9 @@ and run parts of your applications for faster delivery, improved performance, an
 *)IAM : Identity Access Management
 ----------------------------------
 Its a global service
-Root user is created by default shouldn't be used or shared
+Root user = Account owner ( root user is created when account was created) is created by default shouldn't be used or shared
+It has atmost previlages . No other user account has this
+
 Users - people in the organization can be grouped
 Group - only contain users not other groups
 
