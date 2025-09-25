@@ -493,4 +493,8 @@ Guards and detects the threats
 
 Amazon inspector: Allows you to run automated security on Ec2,Containers images and Lambda functions
 
-AWS Config: Helps you with auditing and recording compliance of AWS resources
+AWS Config: 
+Paid version
+Stores config settings of aws resources at one place and you can apply rules on them to shows compliance status 
+Helps you with auditing and recording compliance of AWS resources
+Helps record configurations and changes over time
