@@ -445,3 +445,50 @@ Common Use:
 
 If you create an Ec2 instance under 10.8.0.0/24 subnet then it will assignan ip between 10.8.0.1 to 10.8.0.254 because 0 and 255 are occupied for subnet and broadcast address
 
+DDOS: Distributed denial-of-service attack: attacking our website creating multiple requests from many computers.
+DDOS Protection is provided on AWS by below
+• AWS Shield Standard: protects against DDOS attack for your website and applications, for all customers at no additional costs
+• AWS Shield Advanced: 24/7 premium DDoS protection
+• AWS WAF: Filter specific requests based on rules
+• CloudFront and Route 53:
+	• Availability protection using global edge network
+	• Combined with AWS Shield, provides attack mitigation at the edge
+
+AWS Firewall Manager
+-------------------
+• Manage security rules in all accounts of an AWS Organization
+
+Penetration testing: AWS allows pen testing is an authorized, simulated cyberattack on a system, network, or application to identify security vulnerabilities 
+before malicious actors can exploit them
+
+Encryption:
+Encryption can be done at 2 stages
+1. Data at rest
+2. when data is transferring
+
+Encryption can be done using below services 
+KMS (Key management service)
+CloudHSM - is a device provided by AWS we can generate keys in them and we are responsible of maintaing keys
+
+Types of KMS keys:
+1) Aws managed KMS key
+2) customer managed KMS keys
+3) AWS Owned keys
+4) CloudHSM Keys (custom keystore)
+
+AWS Certificate MAnager (ACM):
+-----------------------------
+Service that provisions, manages and deploy  SSL / TSL certificates
+
+AWS Secrets Manager: 
+--------------------
+Used to store secrets / passwords here
+
+AWS Artifacts:
+---------------
+Place where you have reports / agreements of AWS
+
+Amazon Guard Duty: 
+Guards and detects the threats
+
+Amazon inspector: Allows you to run automated security on Ec2,Containers images and Lambda functions
